@@ -1,12 +1,15 @@
+<!-- feel free to change anything -->
+<!-- pictures are linked to the ones in assets folder -->
+<!-- Wrong Guesses Div has been added -->
+<!-- Css stylesheet is done, needs logic to get this game going:) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-   <!--  <link rel="stylesheet" type="text/css" href="assets/css/movies.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/superheroes.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Josefin+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <title>Hangman</title>
 </head>
@@ -15,39 +18,43 @@
     <div id = "welcome">
         <h1>Welcome to Hangman</h1>  
     </div>
-    <div id = "themesContainer">
+ 	<div id = "themescontainer">
         <div class="theme" id = "movies">
-            <!-- <img id="moviepic" src="assets/images/movies.jpg"> -->
+        	<!-- <img src="assets/images/movies.jpg" alt=""> -->
             <p>Movies</p>
         </div>
         <div class="theme" id = "superheros">
-            <img id="superpic">
+        	<!-- <img src="assets/images/superheroes.jpg" alt=""> -->
             <p>Superheros</p>
         </div>
         <div class="theme" id = "tech-compaines">
-            <img  id="techpic">
+        	<!-- <img src="assets/images/movies.png" alt=""> -->
             <p>Tech-Companies</p>
         </div>
         <div class="theme" id = "cars">
-            <img  id="carspic">
+        	<!-- <img src="assets/images/cars.jpeg" alt=""> -->
             <p>Cars</p>
         </div>
         <div class="theme" id = "fbteams">
-            <img id="fbpic">
+        	<!-- <img src="assets/images/football.jpg" alt=""> -->
             <p>Football Teams</p>
         </div>        
         <div class="theme" id = "pets">
-            <!-- needs image -->
+        	<!-- <img src="assets/images/pets.jpg" alt=""> -->
             <p>Pets</p>
         </div>
-    </div>
-    <div id="correctGuesses">
-        <h2>_ _ _ _ _ _ _ _ _ _</h2>
+        <hr>
     </div>
     <div id="hangman">
-        <img = "assets/images/s0.jpg">
+        <img src="assets/images/hangman/s0.jpg">
     </div>
+    <div id="correctGuesses">
+        <h2> _ _ _ _ _ _ _ _ _ _</h2>
+    </div>
+    <dir id="wrongGuesses">
+    	<h2>WRONG GUESSES HERE</h2>
+    </dir>
 </div>
-    
     <script src="assets/javascript/games.js"></script>
+ </body>
 </html>
