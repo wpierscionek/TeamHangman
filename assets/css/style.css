@@ -1,36 +1,54 @@
-
 body{
 	background-image: url(../images/movies.jpg);
 }
 	#container{
 	width: 940px;
 	height: 1000px;
-	background-color: #000;
-	color: lightgray;
+	background-color: rgba(0, 0, 0, 0.76);
+	color: #fff;
 	font-size: 28px;
 	font-family: monospace;
 	font-weight: 700;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 15px;
 }
 #welcome{
-	color: red;
-	text-align: center;
-	font-family: sans-serif;
+	color: #bd0000;
+	text-align: center;	
+	font-family: 'Amatic SC', cursive;
+	text-shadow:  1px 1px #ffffff;
 }
 .theme{
 	color: white;
 	display: inline-block;
-	font-family: sans-serif;
-	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	font-size: 24px;
 	margin-left: 40px;
-
+}
+#hangman{
+	width: 600px;
+	height: 300px;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-color: #000;
+}
+#hangman img{
+	margin-left: 75px;
+	border-radius: 15px;
 }
 #correctGuesses{
 	text-align: center;
+	border: solid 1px #fff;
+	background-color: rgba(51, 174, 10, 0.71);
+}
+#wrongGuesses{
+	text-align: center;
+	color: #bd0000;
 }
 .theme:hover{
-	color:green;
+	color: #00cc0a;
 }
 
 
@@ -54,54 +72,3 @@ body{
 
 
 
-
-
-/*#container{
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#board{
-	width: 900px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-	font-size: 48px;
-	min-height: 60px;
-}
-#hangman{
-	float: left;
-	width: 450px;
-	text-align: center;
-	min-height: 280px;
-}
-#alphabet{
-	float: left;
-	width: 450px;
-	text-align: center;
-	min-height: 280px;
-}
-.letter{
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	padding: 5px;
-	margin: 5px;
-	border: 3px solid gray;
-	float: left;
-	cursor: pointer;
-	border-radius: 15px;
-}
-.letter:hover{
-	background-color: #222;
-	color: white;
-	border: 3px white solid;
-}
-.reset{
-	color: green;
-	cursor: pointer;
-	font-size: 48px;
-}
-.reset:hover{
-	color: white;
-}*/
