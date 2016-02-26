@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <!--  <link rel="stylesheet" type="text/css" href="assets/css/movies.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/superheroes.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <title>Hangman</title>
+</head>
+<body>
+<div id="container">
+    <div id = "welcome">
+        <h1>Welcome to Hangman</h1>  
+    </div>
+    <div id = "themesContainer">
+        <div class="theme" id = "movies">
+            <!-- <img id="moviepic" src="assets/images/movies.jpg"> -->
+            <p>Movies</p>
+        </div>
+        <div class="theme" id = "superheros">
+            <img id="superpic">
+            <p>Superheros</p>
+        </div>
+        <div class="theme" id = "tech-compaines">
+            <img  id="techpic">
+            <p>Tech-Companies</p>
+        </div>
+        <div class="theme" id = "cars">
+            <img  id="carspic">
+            <p>Cars</p>
+        </div>
+        <div class="theme" id = "fbteams">
+            <img id="fbpic">
+            <p>Football Teams</p>
+        </div>        
+        <div class="theme" id = "pets">
+            <!-- needs image -->
+            <p>Pets</p>
+        </div>
+    </div>
+    <div id="correctGuesses">
+        <h2>_ _ _ _ _ _ _ _ _ _</h2>
+    </div>
+    <div id="hangman">
+        <img = "assets/images/s0.jpg">
+    </div>
+</div>
+    
+    <script src="assets/javascript/games.js"></script>
+</html>
